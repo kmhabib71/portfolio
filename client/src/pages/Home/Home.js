@@ -1,12 +1,12 @@
 import React, { useState } from "react";
+import Header from "../../components/Header/Header";
 // import "./Home.css";
 const Home = () => {
   return (
     <div className="">
+      <Header />
       <div>Home</div>
-      <p className="">
-        This is some text that will be styled based on the current mode.
-      </p>
+
       {/* <button onClick={toggleDarkMode}>Toggle Mode</button> */}
     </div>
   );
