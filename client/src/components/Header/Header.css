@@ -1,0 +1,23 @@
+@keyframes moveTopRight {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translate(50px, -50px);
+  }
+  26% {
+    transform: translate(-50px, 50px);
+  }
+  /* 50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(50px, -50px);
+  }
+  100% {
+    transform: translate(0);
+  } */
+}
+.action:hover .icon {
+  animation: moveTopRight 1s 2;
+}

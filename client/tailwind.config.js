@@ -10,6 +10,9 @@ module.exports = {
         dsecondarybg: "#0a090d",
         dcardbg: "#141316",
       },
+      animation: {
+        moveTopRight: "moveTopRight 1s 1",
+      },
     },
   },
   plugins: [],
